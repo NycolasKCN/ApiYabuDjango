@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Pagina inicial")
+    return HttpResponse("home page")
 
-def userPagr(request):
+def userPage(request):
     return HttpResponse("User page")

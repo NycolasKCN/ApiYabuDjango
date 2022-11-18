@@ -8,5 +8,4 @@ Aqui temos que criar algumas rotas
 
 urlpatterns = [
     path("", views.index, name="api"),
-    path("user/", views.userPage, name="userPage")
 ]
